@@ -1,0 +1,225 @@
+@import "../../../App.scss";
+
+.contact-form-container {
+  padding: 35px 96px;
+
+  @include mobile {
+    padding: 15px 15px;
+  }
+  @include tablet {
+    padding: 30px 32px;
+  }
+
+  .contactTitle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+
+    @include mobile {
+      font-size: 23px;
+    }
+    @include tablet {
+      font-size: 36px;
+    }
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+    @include mobile {
+      padding: 15px 15px;
+    }
+    @include tablet {
+      padding-top: 20px;
+    }
+
+    .left-section {
+      background: rgba(45, 38, 211, 0.2);
+      width: 100%;
+      text-align: center;
+
+      .left-section-image {
+        padding: 50px;
+      }
+    }
+
+    .right-section {
+      // padding-left: 30px;
+
+      @include mobile {
+        padding: 0px;
+      }
+
+      .right-section-description {
+        @include mobile {
+          font-size: 12px;
+          padding: 0px 0px;
+        }
+
+        .description {
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0.15px;
+            text-transform: capitalize;
+            text-align: center;
+            word-break: break-all;
+
+            @include mobile {
+              line-height: 12px;
+              font-size: 12px;
+            }
+            @include tablet {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+
+      form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 30px;
+
+        @include mobile {
+          display: flex;
+          // padding-top: 30px;
+          flex-direction: row;
+          padding-top: 10px;
+        }
+
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          margin-top: 10px;
+          width: 48%;
+          // margin: 1px auto;
+
+          @include mobile {
+            width: 48%;
+          }
+
+          .form-label {
+            color: #808080;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.15px;
+            text-transform: capitalize;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            text-align: left;
+            @include mobile {
+              font-size: 12px;
+            }
+          }
+
+          .form-input {
+            height: 42px;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            background: #fff;
+            padding-left: 15px;
+            color: black;
+            font-size: 12px;
+          }
+
+          #message {
+            height: 97px;
+            padding-left: 0;
+            // width: 100%;
+            flex-shrink: 0;
+            padding-left: 15px;
+            padding-top: 10px;
+            line-height: 24px;
+            // width: calc(100% - 20px);
+          }
+        }
+
+        .textareaBox {
+          width: 100%;
+          // padding: 14px;
+        }
+
+        .formbutton {
+          text-align: left;
+          width: 100%;
+          padding-left: 0;
+          margin-top: 1.5rem;
+
+          @include mobile {
+            margin-top: 0rem;
+            display: flex;
+            justify-content: center;
+          }
+
+          button {
+            display: flex;
+            width: 20%;
+            padding: 8px 0px;
+            justify-content: center;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 20px;
+            letter-spacing: 1.25px;
+            border-radius: 10px;
+            background: #2d26d3;
+            border: none;
+
+            // color: #FFF;
+            // font-family: Poppins;
+            // font-size: 23px;
+            // font-style: normal;
+            // font-weight: 500;
+            // line-height: normal;
+            // letter-spacing: 1.25px;
+            // text-transform: capitalize;
+            // display: flex;
+            // width: 606px;
+            // padding: 14px 100px;
+            // justify-content: center;
+            // align-items: center;
+            // gap: 10px;
+            // border-radius: 10px;
+            // background: #2D26D3;
+            // border: none;
+
+            @include mobile {
+              border-radius: 10px;
+              border: 1px solid #d9d9d9;
+              background: #4474fa;
+              padding: 14px 40px;
+              margin-top: 18px;
+              width: 50%;
+              color: #fff;
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 14px;
+              letter-spacing: 1.25px;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}

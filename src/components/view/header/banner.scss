@@ -1,0 +1,152 @@
+@import "../../../App.scss";
+
+.banner {
+  position: relative;
+
+  .bannerImage {
+    height: 100vh;
+    .mobileImg {
+      display: none;
+    }
+
+    @include mobile {
+      .mobileImg {
+        display: block;
+      }
+
+      .desktopImg {
+        display: none;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .bannerWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .languageBtn {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 96px;
+      gap: 10px;
+
+      @include mobile {
+        display: none;
+      }
+      @include tablet {
+        display: none;
+      }
+
+      button {
+        border-radius: 10px;
+        border: 1px solid #d9d9d9;
+        padding: 6px 16px;
+        // &::hover {
+        //   padding: 446px 1546px;
+        // }
+      }
+    }
+
+    .searchBar {
+      @include mobile {
+        display: none;
+      }
+      @include tablet {
+        display: none;
+      }
+    }
+
+    .content {
+      width: 100%;
+      height: calc(100% - 226px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #ffff;
+      gap: 26px;
+
+      @include mobile {
+        gap: 28px;
+      }
+
+      @include tablet {
+        gap: 28px;
+        height: 80%;
+        // height: 100%;
+      }
+
+      .bannerTitle {
+        color: #fff;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100px;
+        letter-spacing: -0.96px;
+
+        @include mobile {
+          font-size: 30px;
+          line-height: 53px;
+        }
+        @include tablet {
+          font-size: 42px;
+          line-height: 53px;
+        }
+      }
+
+      .bannerDescription {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+
+        @include mobile {
+          line-height: 16px;
+          font-size: 16px;
+        }
+        @include tablet {
+          line-height: 16px;
+          font-size: 17px;
+        }
+      }
+
+      .bannerButton {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        width: 211px;
+        height: 66px;
+        border-radius: 6px;
+        border: 0px solid #fff;
+        background: #4474fa;
+
+        @include mobile {
+          width: 150px;
+          height: 42px;
+          font-size: 14px;
+          line-height: 14px;
+        }
+        @include tablet {
+          font-size: 19px;
+          width: 145px;
+          height: 46px;
+        }
+      }
+    }
+  }
+}

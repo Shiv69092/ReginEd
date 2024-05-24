@@ -1,0 +1,246 @@
+@import "../../../App.scss";
+
+.about {
+  background: #fff;
+  padding: 35px 96px;
+
+  @include mobile {
+    padding: 0;
+  }
+  @include tablet {
+    padding: 30px 32px;
+  }
+
+  .aboutTitle {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    @include mobile {
+      font-size: 23px;
+      line-height: 23px;
+      margin: 10px 0px;
+      padding-top: 15px;
+    }
+    @include tablet {
+      font-size: 36px;
+      line-height: 23px;
+      margin: 10px 0px;
+    }
+    @include desktop {
+      font-size: 40px;
+    }
+  }
+
+  .aboutContent {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+
+    @include mobile {
+      gap: 0;
+      padding: 15px 15px;
+      padding-top: 0px;
+    }
+
+    .aboutImage {
+      flex: 1;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .aboutDescription {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+      color: #2e2e2e;
+      font-family: Poppins;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.042px;
+
+      @include mobile {
+        font-size: 12px;
+        line-height: normal;
+        letter-spacing: 0.018px;
+      }
+      p {
+        @include tablet {
+          font-size: 15px;
+          line-height: normal;
+          letter-spacing: 0.18px;
+        }
+        @include desktop {
+          font-size: 18px;
+        }
+        word-break: break-all;
+        font-family: "Poppins";
+      }
+
+      button {
+        border-radius: 6px;
+        border: 1.5px solid #000;
+        background: #4474fa;
+        box-shadow: 0px 6px 8.6px 0px rgba(0, 0, 0, 0.25);
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 164px;
+        height: 49px;
+        margin-top: 10px;
+
+        @include tablet {
+          width: 135px;
+          height: 41px;
+          margin-top: 16px;
+        }
+        @include mobile {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .aboutCards {
+    display: flex;
+
+    @include mobile {
+      // flex-direction: column;
+      flex-wrap: wrap;
+      padding: 15px 15px;
+    }
+
+    .card {
+      color: black;
+      padding: 0;
+
+      @include mobile {
+        width: 49%;
+      }
+      @include tablet {
+        width: 49%;
+      }
+
+      .innerCard {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+
+        @include mobile {
+          gap: 16px;
+        }
+        @include mobile {
+          gap: 10px;
+        }
+
+        .title {
+          h1 {
+            color: #141414;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.096px;
+
+            @include mobile {
+              font-size: 20.186px;
+              line-height: normal;
+              letter-spacing: 0.035px;
+            }
+            @include tablet {
+              font-size: 26px;
+              line-height: normal;
+              letter-spacing: 0.035px;
+            }
+            @include desktop {
+              font-size: 30px;
+              line-height: normal;
+              letter-spacing: 0.035px;
+            }
+          }
+        }
+
+        .description {
+          color: #000;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.042px;
+          text-align: left;
+
+          @include mobile {
+            font-size: 10.144px;
+            letter-spacing: 0.015px;
+            word-break: break-all;
+          }
+          @include tablet {
+            font-size: 14px;
+            letter-spacing: 0.015px;
+            // background-color: red;
+          }
+        }
+
+        .button {
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+
+          @include mobile {
+            margin-top: 0;
+          }
+          @include tablet {
+            margin-top: 0;
+          }
+
+          button {
+            display: flex;
+            width: 157px;
+            height: 48px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            background: rgba(217, 217, 217, 0.15);
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 1.25px;
+
+            @include mobile {
+              border-radius: 2.174px;
+              background: #4474fa;
+              box-shadow: 0px 2.174px 3.116px 0px rgba(0, 0, 0, 0.25);
+              width: 88.977px;
+              height: 22px;
+              color: #fff;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

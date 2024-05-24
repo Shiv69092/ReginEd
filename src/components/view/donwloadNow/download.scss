@@ -1,0 +1,121 @@
+@import "../../../App.scss";
+
+.donwload {
+  padding: 35px 96px;
+
+  @include mobile {
+    padding: 15px 15px;
+  }
+  @include tablet {
+    padding: 30px 32px;
+  }
+  @include desktop {
+    padding: 30px 32px;
+  }
+
+  .title {
+    h1 {
+      color: #000;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 58px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+
+      @include mobile {
+        font-size: 23px;
+        line-height: normal;
+      }
+      @include tablet {
+        font-size: 36px;
+        line-height: normal;
+      }
+      @include desktop {
+        font-size: 40px;
+        line-height: normal;
+      }
+    }
+  }
+
+  .downloadContent {
+    display: flex;
+
+    .imgLeft {
+      flex: 1;
+
+      img {
+        width: 100%;
+        height: 100%;
+        max-width: 414px;
+        max-height: 414px;
+
+        @include mobile {
+          min-width: 114.349px;
+          min-height: 114.35px;
+        }
+      }
+    }
+
+    .imgRight {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        width: 127.818px;
+        height: 147.995px;
+
+        @include mobile {
+          width: 35.304px;
+          height: 40.878px;
+        }
+      }
+
+      h5 {
+        color: #474586;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+
+        @include mobile {
+          font-size: 12.153px;
+        }
+        @include tablet {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .description {
+      flex: 1;
+      color: #000;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include mobile {
+        font-size: 12px;
+        line-height: normal;
+      }
+      @include tablet {
+        font-size: 18px;
+        line-height: normal;
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+﻿{
+  "navbar": {
+    "home": {
+      "en": "Home",
+      "hi": "होम"
+    },
+    "about": {
+      "en": "About",
+      "hi": "हमारे बारे में"
+    },
+    "carrer": {
+      "en": "Career",
+      "hi": "करियर"
+    },
+    "contact": {
+      "en": "Contact Us",
+      "hi": "संपर्क करें"
+    }
+  },
+  "homepageBanner": {
+    "bannerImg": "",
+    "title": {
+      "en": "WELCOME TO OUR REGINED",
+      "hi": "हमारे पंजीकृत में आपका स्वागत है"
+    },
+    "description": {
+      "en": "Empowering experiences through technology and creativity",
+      "hi": " टेक्नोलॉजी और रचनात्मकता के माध्यम से अनुभवों को मजबूती प्रदान करते हुए।"
+    },
+    "button": {
+      "en": "Get In Touch",
+      "hi": "संपर्क करें"
+    }
+  },
+  "aboutSection": {
+    "aboutImg": "",
+    "title": {
+      "en": "About The ReginED",
+      "hi": "रेजिनईडी के बारे में"
+    },
+    "description": {
+      "en": "Welcome to our world of innovation and creativity! We are a passionate team dedicated to crafting exceptional digital experiences. From cutting-edge technology solutions to captivating design, we strive to redefine possibilities. Our mission is to inspire and empower through seamless integration of art and technology. Join us on this journey as we shape the future with innovation and imagination.",
+      "hi": "हमारे नवाचार और रचनात्मकता के दुनिया में आपका स्वागत है! हम एक उत्साही टीम हैं जो अद्वितीय डिजिटल अनुभव बनाने में समर्पित हैं। कटिंग-एज तकनीकी समाधानों से लेकर मोहक डिजाइन तक, हम संभावनाओं को पुनः परिभाषित करने का प्रयास करते हैं। हमारा उद्देश्य कला और तकनीक के संगीतमें सहज एकीकरण के माध्यम से प्रेरित और सशक्त करना है। आइए हमारे साथ इस यात्रा पर चलें जब हम नवाचार और कल्पना के साथ भविष्य को आकार देते हैं।"
+    },
+    "serviceCard": {
+      "cards": [
+        {
+          "title": {
+            "en": "Our Mission",
+            "hi": "हमारा विशेष कार्य"
+          },
+          "description": {
+            "en": "Empowering individuals to thrive in the digital age, our mission is to bridge innovation with accessibility. We strive to create solutions that make technology inclusive and beneficial for everyone.",
+            "hi": "डिजिटल युग में सफलता प्राप्त करने के लिए, हमारा मिशन नवाचार को पहुंचने में सहायक होना है। हम उन समाधानों को बनाने का प्रयास कर रहे हैं जो प्रौद्योगिकी को सभी के लिए समर्थनशील और लाभकारी बनाए रखते हैं।"
+          },
+          "button": {
+            "en": "Read More",
+            "hi": "और पढ़ें"
+          }
+        },
+        {
+          "title": {
+            "en": "Features",
+            "hi": "विशेषताएँ"
+          },
+          "description": {
+            "en": "Experience the power of seamless integration with our standout features. From intuitive user interfaces to robust functionalities, we provide a user-centric experience that sets us apart.",
+            "hi": "हमारी उच्चकोण विशेषताओं के साथ सीमित एकीकरण की शक्ति का अनुभव करें। सुसंगत उपयोगकर्ता इंटरफेस से लेकर मजबूत कार्यक्षमताओं तक, हम एक उपयोगकर्ता-केंद्रित अनुभव प्रदान करते हैं जो हमें अलग बनाता है।"
+          },
+          "button": {
+            "en": "Read More",
+            "hi": "और पढ़ें"
+          }
+        },
+        {
+          "title": {
+            "en": "How It Works",
+            "hi": "प्रकार"
+          },
+          "description": {
+            "en": "Discover the simplicity of our platform. Sign up, explore features, and seamlessly integrate our solutions into your workflow. Effortlessly enhance your digital experience with just a few clicks.",
+            "hi": "हमारे प्लेटफ़ॉर्म की सरलता की खोज करें। साइन अप करें, विशेषताएँ अन्वेषण करें, और हमारे समाधानों को अपनी वर्कफ़्लो में सहजता से एकीकृत करें। कुछ ही क्लिक्स के साथ अपने डिजिटल अनुभव को बेहद सरलता से सुधारें।"
+          },
+          "button": {
+            "en": "Read More",
+            "hi": "और पढ़ें"
+          }
+        }
+      ]
+    }
+  },
+  "downloadSection": {
+    "title": {
+      "en": "Download Now",
+      "hi": "डाउनलोड करो"
+    },
+    "description": {
+      "en": "Download The app for Better Experience",
+      "hi": "बेहतर अनुभव के लिए ऐप डाउनलोड करें"
+    }
+  },
+  "careerSection": {
+    "title": {
+      "en": "Career At Parivaar",
+      "hi": "कैरियर और परिवार"
+    },
+    "description": {
+      "en": "To start your career at Parivaar group visit our career page",
+      "hi": "परिवार ग्रुप में अपना करियर शुरू करने के लिए हमारे करियर पेज पर जाएँ"
+    },
+    "portal": {
+      "title": {
+        "en": "Check our portal",
+        "hi": "हमारे पोर्टल की जाँच करें"
+      },
+      "portalLink": "Parivaar Group"
+    },
+    "joinInput": {
+      "btn": {
+        "en": "Join",
+        "hi": "जोड़ना"
+      }
+    }
+  },
+  "getInTouchSection": {
+    "title": {
+      "en": "Get In Touch",
+      "hi": "संपर्क में रहो"
+    },
+    "description": {
+      "en": "Connect with us! Feel free to reach out for any inquiries or collaborations. We're here to make your experience exceptional.",
+      "hi": "हमसे जुड़ें! किसी भी पूछताछ या सहयोग के लिए संपर्क करें। हम यहां हैं ताकि आपका अनुभव अद्वितीय हो।"
+    },
+    "form": {
+      "firstName": {
+        "en": "First Name",
+        "hi": "पहला नाम"
+      },
+      "lastName": {
+        "en": "Last Name",
+        "hi": "अंतिम नाम"
+      },
+      "email": {
+        "en": "Email",
+        "hi": "ईमेल"
+      },
+      "phone": {
+        "en": "Phone",
+        "hi": "फ़ोन"
+      },
+      "company": {
+        "en": "Company",
+        "hi": "कंपनी"
+      },
+      "jobTitle": {
+        "en": "Job Title",
+        "hi": "नौकरी का शीर्षक"
+      },
+      "howCanWeHelp": {
+        "en": "How Can We Help?",
+        "hi": "हम कैसे मदद कर सकते हैं?"
+      }
+    },
+    "submitButton": {
+      "en": "Submit",
+      "hi": "प्रस्तुत करें"
+    }
+  },
+  "footer": {
+    "about": {
+      "item": [
+        {
+          "en": "About",
+          "hi": "हमारे बारे में"
+        },
+        {
+          "en": "Who we are",
+          "hi": "हम कौन हैं"
+        },
+        {
+          "en": "Join us",
+          "hi": "हमारे साथ जुड़ें"
+        },
+        {
+          "en": "Contact us",
+          "hi": "संपर्क करें"
+        }
+      ]
+    },
+    "log": {
+      "en": "Social media",
+      "hi": "मीडिया"
+    },
+    "policy": [
+      {
+        "en": "Privacy Policy",
+        "hi": "गोपनीयता नीति"
+      },
+      {
+        "en": "Return Policy",
+        "hi": "वापसी नीति"
+      },
+      {
+        "en": "Terms & Conditions",
+        "hi": "नियम एवं शर्तें"
+      }
+    ]
+  }
+}
